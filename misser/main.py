@@ -7,7 +7,7 @@ from bot_instance import bot
 from bot.handlers.user_handlers import user_router
 
 
-
+#Move to bot/handlers/user_handlers
 #@dp.message(CommandStart())
 #async def cmd_start(msg: types.Message) -> None:
 #    reply_text = f'Hello,  {markdown.hbold(msg.from_user.first_name)}'
